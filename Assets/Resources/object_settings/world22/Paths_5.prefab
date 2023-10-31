@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790492663808471375}
+  m_IsPrefabParent: 1
+--- !u!4 &1790492663858803024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.34, y: 0.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790492663808471375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790492663858803024}
+  - component: {fileID: 1790492665704296786}
+  - component: {fileID: 1790492665704296785}
+  m_Layer: 0
+  m_Name: "Paths_5"
+  m_TagString: "Paths"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790492665704296785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b68f937fc56f2718370ee0a3001d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790492665704296786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 1"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: -6.669724, y: 2.792616, z: 0.7}
+  - {x: -5.822145, y: 2.789247, z: 0.6}
+  - {x: -4.098838, y: 2.79136, z: 0.4}
+  - {x: -2.669684, y: 2.835956, z: 0.2}
+  - {x: -1.191481, y: 2.781354, z: 0}
+  - {x: 0.2805409, y: 2.546148, z: 0}
+  - {x: 1.64188, y: 2.148, z: 0}
+  - {x: 2.506758, y: 1.567207, z: 0}
+  - {x: 2.735395, y: 0.3087121, z: 0}
+  - {x: 2.524038, y: -0.6040763, z: 0}
+  - {x: 1.850617, y: -1.272515, z: 0}
+  - {x: 0.6165799, y: -1.18271, z: 0}
+  - {x: -0.1267118, y: -0.6349767, z: 0}
+  - {x: -0.2453339, y: 0.4141193, z: 0}
+  - {x: -0.02950101, y: 1.372625, z: 0.2}
+  - {x: 0.4603749, y: 2.123586, z: 0.4}
+  - {x: 1.273374, y: 2.626806, z: 0.4}
+  - {x: 2.47723, y: 2.577276, z: 0.2}
+  - {x: 3.362616, y: 1.654213, z: 0}
+  - {x: 3.544119, y: 0.3622704, z: 0}
+  - {x: 3.041757, y: -1.045967, z: 0}
+  - {x: 2.21677, y: -1.769467, z: 0}
+  - {x: 1.160813, y: -1.996297, z: 0}
+  - {x: -0.004747704, y: -1.885836, z: 0}
+  - {x: -0.5860537, y: -1.573795, z: 0}
+  - {x: -0.7367534, y: -1.223931, z: 0}
+  - {x: -0.7990139, y: -0.5299544, z: 0}
+  - {x: -0.965043, y: 0.2332428, z: 0}
+  - {x: -1.515013, y: 1.089565, z: 0}
+  - {x: -2.31108, y: 1.400868, z: 0}
+  - {x: -2.953439, y: 1.298574, z: 0}
+  - {x: -3.379625, y: 0.9321724, z: 0}
+  - {x: -3.328478, y: 0.2898138, z: 0}
+  - {x: -3.002847, y: -0.04224417, z: 0}
+  - {x: -2.546267, y: -0.2754866, z: 0}
+  - {x: -1.915759, y: -0.4916601, z: 0}
+  - {x: -1.557994, y: -0.7975401, z: 0}
+  - {x: -1.372951, y: -1.129598, z: 0}
+  - {x: -1.542194, y: -1.495999, z: 0}
+  - {x: -1.963692, y: -1.642748, z: 0}
+  - {x: -2.515137, y: -1.742566, z: 0}
+  - {x: -2.852885, y: -1.977283, z: 0}
+  - {x: -2.858309, y: -2.303651, z: 0}
+  - {x: -2.655725, y: -2.507236, z: 0}
+  - {x: -2.206044, y: -2.641398, z: 0}
+  - {x: -1.290674, y: -2.687592, z: 0}
+  - {x: -0.3184679, y: -2.733049, z: 0}
+  - {x: 0.8045862, y: -2.760274, z: 0}
+  - {x: 1.946106, y: -2.695567, z: 0.2}
+  - {x: 3.042763, y: -2.430501, z: 0.4}
+  nodeCount: 50
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1

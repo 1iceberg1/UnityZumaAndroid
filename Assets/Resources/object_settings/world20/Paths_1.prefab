@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790492663808471375}
+  m_IsPrefabParent: 1
+--- !u!4 &1790492663858803024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.88, y: 0.83, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790492663808471375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790492663858803024}
+  - component: {fileID: 1790492665704296786}
+  - component: {fileID: 1790492665704296785}
+  m_Layer: 0
+  m_Name: "Paths_1"
+  m_TagString: "Paths"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790492665704296785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b68f937fc56f2718370ee0a3001d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790492665704296786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 1"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 3.477894, y: 3.910422, z: 0.7}
+  - {x: 3.086114, y: 3.651181, z: 0.4}
+  - {x: 2.612768, y: 3.279728, z: 0.4}
+  - {x: 2.072279, y: 2.860852, z: 0.4}
+  - {x: 1.827043, y: 2.296752, z: 0.2}
+  - {x: 2.061723, y: 1.769491, z: 0}
+  - {x: 2.492605, y: 1.742996, z: 0}
+  - {x: 3.004534, y: 1.919733, z: 0}
+  - {x: 3.479896, y: 1.761279, z: 0}
+  - {x: 3.754144, y: 1.389521, z: 0}
+  - {x: 3.839465, y: 0.9933854, z: 0}
+  - {x: 3.780539, y: 0.5553023, z: 0}
+  - {x: 3.553895, y: 0.2042255, z: 0}
+  - {x: 3.086112, y: 0.1759596, z: 0}
+  - {x: 2.671913, y: 0.3632758, z: 0}
+  - {x: 2.445393, y: 0.5641438, z: 0}
+  - {x: 2.100915, y: 0.5364819, z: 0}
+  - {x: 1.817191, y: 0.3391642, z: 0}
+  - {x: 1.75236, y: 0.004347235, z: 0}
+  - {x: 1.917519, y: -0.2819769, z: 0}
+  - {x: 2.221586, y: -0.4320011, z: 0}
+  - {x: 2.565486, y: -0.5646182, z: 0}
+  - {x: 2.928787, y: -0.6907589, z: 0}
+  - {x: 3.325576, y: -0.9114131, z: 0}
+  - {x: 3.560816, y: -1.321128, z: 0}
+  - {x: 3.553545, y: -1.760607, z: 0}
+  - {x: 3.313393, y: -2.17939, z: 0}
+  - {x: 2.806709, y: -2.387655, z: 0}
+  - {x: 2.168342, y: -2.185726, z: 0}
+  - {x: 1.752513, y: -1.661348, z: 0}
+  - {x: 1.329648, y: -1.135878, z: 0}
+  - {x: 0.881643, y: -1.12169, z: 0}
+  - {x: 0.814523, y: -1.643359, z: 0}
+  - {x: 0.7918351, y: -2.350505, z: 0}
+  - {x: 0.4306889, y: -2.686555, z: 0}
+  - {x: -0.5127541, y: -2.75796, z: 0}
+  - {x: -1.079232, y: -2.495056, z: 0}
+  - {x: -1.196772, y: -1.907355, z: 0}
+  - {x: -0.6838697, y: -1.426509, z: 0}
+  - {x: -0.6678414, y: -1.079232, z: 0}
+  - {x: -1.297869, y: -0.9722388, z: 0}
+  - {x: -1.801059, y: -1.565102, z: 0}
+  - {x: -2.464616, y: -2.318701, z: 0}
+  - {x: -3.238272, y: -2.080118, z: 0}
+  - {x: -3.490564, y: -1.273625, z: 0}
+  - {x: -3.177131, y: -0.5321079, z: 0}
+  - {x: -2.385008, y: -0.4424174, z: 0}
+  - {x: -1.806005, y: -0.1432348, z: 0}
+  - {x: -1.828913, y: 0.5014995, z: 0}
+  - {x: -2.438233, y: 0.689952, z: 0}
+  - {x: -3.254349, y: 0.4607062, z: 0}
+  - {x: -3.764066, y: 1.176271, z: 0}
+  - {x: -3.479801, y: 2.058474, z: 0}
+  - {x: -2.617202, y: 2.411355, z: 0.2}
+  - {x: -1.474772, y: 2.190468, z: 0.4}
+  nodeCount: 55
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1

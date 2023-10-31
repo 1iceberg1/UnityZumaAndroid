@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790492663808471375}
+  m_IsPrefabParent: 1
+--- !u!4 &1790492663858803024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.882, y: -1.388, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790492663808471375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790492663858803024}
+  - component: {fileID: 1790492665704296786}
+  - component: {fileID: 1790492665704296785}
+  - component: {fileID: 1790492665704296787}
+  m_Layer: 0
+  m_Name: "Paths_9"
+  m_TagString: "Paths"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790492665704296785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b68f937fc56f2718370ee0a3001d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790492665704296786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 1"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 0.6899321, y: 5.249045, z: 0.7}
+  - {x: 0.5377357, y: 4.231313, z: 0.6}
+  - {x: 0.5155839, y: 2.985371, z: 0.4}
+  - {x: 0.5271631, y: 2.144595, z: 0.1}
+  - {x: 0.6498585, y: 1.644529, z: 0}
+  - {x: 0.9282888, y: 1.057116, z: 0}
+  - {x: 1.317733, y: 0.6000651, z: 0}
+  - {x: 2.094877, y: 0.1668641, z: 0}
+  - {x: 3.104412, y: 0.2380033, z: 0}
+  - {x: 3.663046, y: 0.6986192, z: 0}
+  - {x: 3.83467, y: 1.425792, z: 0}
+  - {x: 3.727286, y: 2.162391, z: 0}
+  - {x: 3.40778, y: 2.539734, z: 0}
+  - {x: 2.731969, y: 2.607055, z: 0}
+  - {x: 2.268645, y: 2.303566, z: 0}
+  - {x: 2.067662, y: 1.797464, z: 0}
+  - {x: 2.005989, y: 1.200285, z: 0.2}
+  - {x: 2.037335, y: 0.6479217, z: 0.4}
+  - {x: 2.25433, y: -0.06671974, z: 0.4}
+  - {x: 2.617439, y: -0.5290294, z: 0.2}
+  - {x: 2.993117, y: -0.7263927, z: 0}
+  - {x: 3.428996, y: -0.8930117, z: 0}
+  - {x: 3.697064, y: -1.313844, z: 0}
+  - {x: 3.582025, y: -1.925703, z: 0}
+  - {x: 3.14958, y: -2.395955, z: 0}
+  - {x: 2.442251, y: -2.540019, z: 0}
+  - {x: 1.856857, y: -2.275268, z: 0}
+  - {x: 1.423184, y: -2.120187, z: 0.2}
+  - {x: 0.7224652, y: -2.127237, z: 0.4}
+  nodeCount: 29
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1
+--- !u!114 &1790492665704296787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 2"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: -0.5200145, y: 4.753253, z: 0.7}
+  - {x: -0.4816885, y: 3.802008, z: 0.6}
+  - {x: -0.4959179, y: 2.942063, z: 0.4}
+  - {x: -0.544263, y: 2.147794, z: 0.1}
+  - {x: -0.707666, y: 1.507193, z: 0}
+  - {x: -1.023593, y: 0.8898796, z: 0}
+  - {x: -1.8173, y: 0.3510703, z: 0}
+  - {x: -2.881378, y: 0.1692608, z: 0}
+  - {x: -3.50315, y: 0.4749428, z: 0}
+  - {x: -3.810841, y: 1.051141, z: 0}
+  - {x: -3.846252, y: 1.779134, z: 0}
+  - {x: -3.66898, y: 2.334488, z: 0}
+  - {x: -3.228826, y: 2.612973, z: 0}
+  - {x: -2.717766, y: 2.621768, z: 0}
+  - {x: -2.348212, y: 2.386584, z: 0}
+  - {x: -2.124431, y: 1.920435, z: 0}
+  - {x: -2.039946, y: 1.343325, z: 0.2}
+  - {x: -2.048387, y: 0.6757518, z: 0.4}
+  - {x: -2.251472, y: -0.04607262, z: 0.4}
+  - {x: -2.531059, y: -0.5112534, z: 0.2}
+  - {x: -2.993112, y: -0.6986657, z: 0}
+  - {x: -3.418435, y: -0.8660303, z: 0}
+  - {x: -3.699218, y: -1.259399, z: 0}
+  - {x: -3.654078, y: -1.856023, z: 0}
+  - {x: -3.285245, y: -2.323569, z: 0}
+  - {x: -2.713271, y: -2.526924, z: 0}
+  - {x: -2.17788, y: -2.455609, z: 0}
+  - {x: -1.712, y: -2.186222, z: 0.2}
+  - {x: -1.059047, y: -2.025255, z: 0.4}
+  nodeCount: 29
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1

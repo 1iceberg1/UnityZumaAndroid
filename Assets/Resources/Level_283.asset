@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59378e8e79c8eb492efa53749d2d092, type: 3}
+  m_Name: "Level_283"
+  m_EditorClassIdentifier: 
+  speed: 0.52
+  numPaths: 1
+  maxSameBalls: 4
+  sameBallCoef: 100
+  itemConfig:
+    maxItems: 3
+    randomCoef: 20
+    minExplodeBalls: 3
+    gapTime: 11
+  attacks:
+  - listBalls: "1 2 1i2 3 3i3 3 - -i3 - h 2 2i2 2 3i2 4 4 - -i3 - 1i1 1 h 1 1 - -i2
+    - 1i1 3 2 4 4i2 3 1i2 1 - - - 1 2i1 3 3i2 3 4i2 4 -i1 - h 1 2i1 1
+    5 3 4i2 4 - -"
+    ballFrom: 0
+    ballTo: 0
+    delay: 0
+    numHidden: 0
+    numBlack: 0
+  - listBalls: "2i1 2 1 1 3 3 3i1 1 2 3 4i2 4 3i2 3i2 2i1 5 1 1 1 3 3 1 1 5 4i1 4i2
+    1 5 5 1i3 2i4 2i3 2i2 4i2 4 3i2 3i2 2i2 1 1i2 1 3 3 1i2 1 5 4"
+    ballFrom: 0
+    ballTo: 0
+    delay: 15
+    numHidden: 0
+    numBlack: 0
+  shooterType: 0
+  cannonPosition: {fileID: 1790492663858803024, guid: 4ee4fd43c7d12b349b5b1219e3f3ac73, type: 2}
+  quad: {fileID: 1790492663808471375, guid: e5fba00d9bb58ed4cbf594b3eb42c1f0, type: 2}
+  paths: {fileID: 1790492663808471375, guid: a20641c700537a543a68f2bf847a4f7e, type: 2}
+  score: 22000

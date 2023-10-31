@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59378e8e79c8eb492efa53749d2d092, type: 3}
+  m_Name: "Level_267"
+  m_EditorClassIdentifier: 
+  speed: 0.52
+  numPaths: 1
+  maxSameBalls: 5
+  sameBallCoef: 150
+  itemConfig:
+    maxItems: 5
+    randomCoef: 30
+    minExplodeBalls: 4
+    gapTime: 11
+  attacks:
+  - listBalls: "2i1 2 h 3 3i2 2 3 3i2 2 3 4i1 4 - h - - 1i2 1i2 2 2i1 1i1 1 1 - h
+    - -i1 - - 3 2i3 5 1i1 h 1 1i1 3 3i2 h 1i4 1i4 4 4i1 1i2 1 3i1 h 3
+    4 3i1 2i2 4 2i2 2 h 3 3 3i2 2 3i2 3 h 3 3i1 4 3i2 3i2 h 2i3 5 1 1
+    h 1 2i2 2 1i2 1 h 5 4i1 4i2 h 4 5 5 2i1 2i4 2 h 4 4 3 3"
+    ballFrom: 0
+    ballTo: 0
+    delay: 0
+    numHidden: 0
+    numBlack: 0
+  shooterType: 0
+  cannonPosition: {fileID: 1790492663858803024, guid: a2a70acc7349e2243bf79b327ccd32e3, type: 2}
+  quad: {fileID: 1790492663808471375, guid: e9650a23601e1b845a61fc6927e34f77, type: 2}
+  paths: {fileID: 1790492663808471375, guid: 55e437c220ffa664c916f3c77953df91, type: 2}
+  score: 30000

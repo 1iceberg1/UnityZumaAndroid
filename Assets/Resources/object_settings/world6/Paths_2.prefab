@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790492663808471375}
+  m_IsPrefabParent: 1
+--- !u!4 &1790492663858803024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.99, y: -0.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790492663808471375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790492663858803024}
+  - component: {fileID: 1790492665704296785}
+  - component: {fileID: 1790492665704296786}
+  m_Layer: 0
+  m_Name: "Paths_2"
+  m_TagString: "Paths"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790492665704296785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 1"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: -2.776952, y: 4.259318, z: 0.7}
+  - {x: -2.764063, y: 3.516378, z: 0.4}
+  - {x: -2.757088, y: 2.654829, z: 0.4}
+  - {x: -2.742, y: 2.020925, z: 0.4}
+  - {x: -2.731741, y: 1.222673, z: 0.4}
+  - {x: -2.751368, y: 0.7027619, z: 0.2}
+  - {x: -2.712169, y: 0.04858643, z: 0}
+  - {x: -2.120174, y: -0.4976921, z: 0}
+  - {x: -1.570145, y: -0.9686623, z: 0}
+  - {x: -0.9262384, y: -1.562596, z: 0}
+  - {x: -0.3342721, y: -2.070808, z: 0}
+  - {x: 0.2863894, y: -2.555174, z: 0}
+  - {x: 0.667863, y: -2.632842, z: 0}
+  - {x: 1.39492, y: -2.636838, z: 0}
+  - {x: 2.126526, y: -2.644056, z: 0}
+  - {x: 2.859813, y: -2.633636, z: 0}
+  - {x: 3.641222, y: -2.532631, z: 0}
+  - {x: 3.888018, y: -2.075885, z: 0}
+  - {x: 3.90422, y: -1.320462, z: 0}
+  - {x: 3.895983, y: -0.6070325, z: 0}
+  - {x: 3.890266, y: 0.1661379, z: 0}
+  - {x: 3.874687, y: 0.929473, z: 0}
+  - {x: 3.62055, y: 1.400524, z: 0}
+  - {x: 2.833863, y: 1.506771, z: 0}
+  - {x: 2.203634, y: 1.507977, z: 0}
+  - {x: 1.357847, y: 1.405695, z: 0}
+  - {x: 1.09591, y: 0.8452616, z: 0}
+  - {x: 0.7907034, y: 0.2224425, z: 0}
+  - {x: -0.311701, y: -0.02128583, z: 0}
+  - {x: -1.413208, y: 0.2070516, z: 0}
+  - {x: -1.765125, y: 0.7892085, z: 0}
+  - {x: -1.982857, y: 1.425165, z: 0}
+  - {x: -3.2242, y: 1.530614, z: 0}
+  - {x: -3.786417, y: 1.150735, z: 0}
+  - {x: -3.806338, y: 0.2420995, z: 0}
+  - {x: -3.819788, y: -0.6859474, z: 0}
+  - {x: -3.847188, y: -1.626928, z: 0}
+  - {x: -3.695328, y: -2.367866, z: 0}
+  - {x: -3.208345, y: -2.598581, z: 0}
+  - {x: -2.320117, y: -2.607759, z: 0}
+  - {x: -1.11562, y: -2.585758, z: 0.2}
+  - {x: -0.5428332, y: -2.247303, z: 0.4}
+  - {x: -0.1103043, y: -1.906845, z: 0.4}
+  - {x: 0.4677285, y: -1.463548, z: 0.2}
+  - {x: 1.141542, y: -0.9672611, z: 0.2}
+  - {x: 2.044393, y: -0.282449, z: 0.2}
+  - {x: 2.447892, y: 0.2689994, z: 0.2}
+  - {x: 2.420992, y: 1.156696, z: 0.4}
+  - {x: 2.434442, y: 1.936795, z: 0.4}
+  - {x: 2.423849, y: 2.805937, z: 0.4}
+  nodeCount: 50
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1
+--- !u!114 &1790492665704296786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b68f937fc56f2718370ee0a3001d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790492663808471375}
+  m_IsPrefabParent: 1
+--- !u!4 &1790492663858803024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.3, y: -1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790492663808471375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790492663858803024}
+  - component: {fileID: 1790492665704296786}
+  - component: {fileID: 1790492665704296785}
+  m_Layer: 0
+  m_Name: "Paths_9"
+  m_TagString: "Paths"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790492665704296785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b68f937fc56f2718370ee0a3001d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790492665704296786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 1"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 5.998566, y: -3.048766, z: 0}
+  - {x: 5.164885, y: -2.806455, z: 0}
+  - {x: 4.629559, y: -2.5825, z: 0}
+  - {x: 3.9517, y: -2.350898, z: 0}
+  - {x: 3.284876, y: -2.109889, z: 0}
+  - {x: 2.698444, y: -1.879081, z: 0}
+  - {x: 1.904297, y: -1.572444, z: 0}
+  - {x: 0.968605, y: -1.229872, z: 0}
+  - {x: 0.2956645, y: -0.9769785, z: 0}
+  - {x: -0.2304481, y: -0.7815359, z: 0}
+  - {x: -0.7503538, y: -0.5940645, z: 0.2}
+  - {x: -1.236343, y: -0.4138599, z: 0.4}
+  - {x: -1.696387, y: -0.2441268, z: 0.4}
+  - {x: -2.598853, y: 0.07712996, z: 0.4}
+  - {x: -3.372535, y: 0.3598222, z: 0.4}
+  - {x: -4.012901, y: 0.9609165, z: 0.2}
+  - {x: -3.902678, y: 1.822436, z: 0}
+  - {x: -3.313967, y: 2.390791, z: 0}
+  - {x: -2.544698, y: 2.154636, z: 0}
+  - {x: -2.280686, y: 1.514034, z: 0}
+  - {x: -2.601942, y: 0.6809613, z: 0}
+  - {x: -3.172562, y: -0.2937531, z: 0}
+  - {x: -3.702235, y: -1.200867, z: 0}
+  - {x: -4.077529, y: -2.203085, z: 0}
+  - {x: -3.688909, y: -2.660746, z: 0}
+  - {x: -3.017714, y: -2.716813, z: 0}
+  - {x: -2.578615, y: -1.989904, z: 0}
+  - {x: -2.319369, y: -1.478323, z: 0}
+  - {x: -2.023704, y: -0.8669905, z: 0}
+  - {x: -1.735422, y: -0.2570999, z: 0}
+  - {x: -1.246933, y: 0.668459, z: 0}
+  - {x: -0.8355739, y: 1.491178, z: 0}
+  - {x: -0.4344512, y: 2.228795, z: 0}
+  - {x: 0.1446112, y: 2.463274, z: 0}
+  - {x: 1.485118, y: 2.475658, z: 0}
+  - {x: 2.519576, y: 2.481011, z: 0}
+  - {x: 3.357533, y: 2.334488, z: 0}
+  - {x: 3.581304, y: 1.950633, z: 0}
+  - {x: 3.612485, y: 1.233373, z: 0}
+  - {x: 3.61225, y: 0.15426, z: 0}
+  - {x: 3.61225, y: -0.694169, z: 0.2}
+  - {x: 3.604157, y: -1.87733, z: 0.4}
+  - {x: 3.465718, y: -2.533818, z: 0.4}
+  - {x: 2.589753, y: -2.618268, z: 0.3}
+  - {x: 1.370491, y: -2.567451, z: 0.3}
+  - {x: 1.058036, y: -2.154947, z: 0.3}
+  - {x: 1.385936, y: -1.376358, z: 0.4}
+  - {x: 1.823877, y: -0.5415313, z: 0.3}
+  - {x: 2.187048, y: 0.1199653, z: 0.3}
+  - {x: 2.685677, y: 1.086851, z: 0.4}
+  nodeCount: 50
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1

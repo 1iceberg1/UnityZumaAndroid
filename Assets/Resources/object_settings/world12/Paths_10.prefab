@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790492663808471375}
+  m_IsPrefabParent: 1
+--- !u!4 &1790492663858803024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.28, y: -0.47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790492663808471375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790492663858803024}
+  - component: {fileID: 1790492665704296786}
+  - component: {fileID: 1790492665704296787}
+  - component: {fileID: 1790492665704296785}
+  m_Layer: 0
+  m_Name: "Paths_10"
+  m_TagString: "Paths"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790492665704296785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 2"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: -7.190255, y: 1.994652, z: 1}
+  - {x: -6.721349, y: 1.593712, z: 0}
+  - {x: -6.03087, y: 0.6266565, z: 0}
+  - {x: -5.524854, y: -0.0292625, z: 0}
+  - {x: -4.996604, y: -0.7505853, z: 0}
+  - {x: -4.586259, y: -1.292596, z: 0}
+  - {x: -4.107498, y: -1.835681, z: 0}
+  - {x: -3.604122, y: -2.214392, z: 0}
+  - {x: -2.874226, y: -2.318744, z: 0}
+  - {x: -2.195892, y: -2.312809, z: 0}
+  - {x: -1.753769, y: -2.22999, z: 0}
+  - {x: -1.704411, y: -1.657384, z: 0}
+  - {x: -1.835531, y: -1.227156, z: 0}
+  - {x: -2.578239, y: -1.209387, z: 0}
+  - {x: -3.352278, y: -1.220106, z: 0}
+  - {x: -3.688501, y: -0.8835833, z: 0}
+  - {x: -3.711835, y: -0.0392465, z: 0}
+  - {x: -3.701949, y: 0.6549575, z: 0}
+  - {x: -3.709531, y: 1.254595, z: 0}
+  - {x: -3.701949, y: 1.651232, z: 0}
+  - {x: -3.712966, y: 2.147384, z: 0}
+  - {x: -3.632763, y: 2.599466, z: 0}
+  - {x: -3.262308, y: 2.680737, z: 0}
+  - {x: -2.776462, y: 2.677302, z: 0}
+  - {x: -2.600178, y: 2.434912, z: 0}
+  - {x: -2.633232, y: 2.115399, z: 0}
+  - {x: -2.611196, y: 1.718762, z: 0}
+  - {x: -2.622214, y: 1.278053, z: 0}
+  - {x: -2.644249, y: 0.7051329, z: 0}
+  - {x: -2.647772, y: 0.2423893, z: 0}
+  - {x: -2.593134, y: -0.1652651, z: 0}
+  - {x: -2.342741, y: -0.3525665, z: 0}
+  - {x: -1.904989, y: -0.2974777, z: 0}
+  - {x: -1.755309, y: -0.03843048, z: 0}
+  - {x: -1.77385, y: 0.5729204, z: 0}
+  - {x: -1.762833, y: 1.046682, z: 0}
+  - {x: -1.784868, y: 1.465355, z: 0}
+  - {x: -1.762833, y: 1.91708, z: 0}
+  - {x: -1.571501, y: 2.236862, z: 0}
+  - {x: -1.123806, y: 2.276903, z: 0}
+  - {x: -0.7161508, y: 2.280664, z: 0}
+  - {x: -0.3525665, y: 2.269647, z: 0}
+  - {x: 0.05476961, y: 2.262654, z: 0}
+  - {x: 0.4407079, y: 2.276003, z: 0.2}
+  - {x: 0.8631529, y: 2.279011, z: 0.4}
+  nodeCount: 45
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1
+--- !u!114 &1790492665704296786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 1"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 7.164924, y: -1.659384, z: 1}
+  - {x: 6.83338, y: -1.467243, z: 0}
+  - {x: 6.085867, y: -0.3654685, z: 0}
+  - {x: 5.488493, y: 0.4173676, z: 0}
+  - {x: 4.704731, y: 1.430333, z: 0}
+  - {x: 4.432849, y: 1.725856, z: 0}
+  - {x: 4.160968, y: 2.033201, z: 0}
+  - {x: 3.889086, y: 2.328724, z: 0}
+  - {x: 3.42807, y: 2.41147, z: 0}
+  - {x: 2.884307, y: 2.423291, z: 0}
+  - {x: 2.340544, y: 2.446933, z: 0}
+  - {x: 1.938633, y: 2.269619, z: 0}
+  - {x: 1.891349, y: 1.820423, z: 0}
+  - {x: 1.90317, y: 1.430333, z: 0}
+  - {x: 2.293261, y: 1.312123, z: 0}
+  - {x: 2.754277, y: 1.300303, z: 0}
+  - {x: 3.274398, y: 1.300303, z: 0}
+  - {x: 3.735415, y: 1.229377, z: 0}
+  - {x: 3.865445, y: 0.8274654, z: 0}
+  - {x: 3.865445, y: 0.4373743, z: 0}
+  - {x: 3.877266, y: 0, z: 0}
+  - {x: 3.877266, y: -0.4610162, z: 0}
+  - {x: 3.889087, y: -0.9456745, z: 0}
+  - {x: 3.889087, y: -1.560363, z: 0}
+  - {x: 3.889087, y: -2.127768, z: 0}
+  - {x: 3.711773, y: -2.576963, z: 0}
+  - {x: 3.002517, y: -2.624247, z: 0}
+  - {x: 2.813381, y: -2.257798, z: 0}
+  - {x: 2.848845, y: -1.820424, z: 0}
+  - {x: 2.837024, y: -1.347586, z: 0}
+  - {x: 2.813382, y: -0.8392863, z: 0}
+  - {x: 2.837024, y: -0.390091, z: 0}
+  - {x: 2.872486, y: 0.2837024, z: 0}
+  - {x: 2.458754, y: 0.4491953, z: 0}
+  - {x: 2.0332, y: 0.3546274, z: 0}
+  - {x: 1.950454, y: 0.04728329, z: 0}
+  - {x: 1.950454, y: -0.4373743, z: 0}
+  - {x: 1.962275, y: -0.9929584, z: 0}
+  - {x: 1.997738, y: -1.548542, z: 0}
+  - {x: 1.914991, y: -2.021379, z: 0}
+  - {x: 1.622803, y: -2.223075, z: 0}
+  - {x: 0.9678973, y: -2.231856, z: 0}
+  - {x: 0.4495347, y: -2.220743, z: 0}
+  - {x: -0.01009175, y: -2.214748, z: 0.2}
+  - {x: -0.7068337, y: -2.215034, z: 0.4}
+  nodeCount: 45
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1
+--- !u!114 &1790492665704296787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b68f937fc56f2718370ee0a3001d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59378e8e79c8eb492efa53749d2d092, type: 3}
+  m_Name: "Level_30"
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  numPaths: 1
+  maxSameBalls: 4
+  sameBallCoef: 100
+  itemConfig:
+    maxItems: 5
+    randomCoef: 30
+    minExplodeBalls: 4
+    gapTime: 11
+  attacks:
+  - listBalls: 
+    ballFrom: 60
+    ballTo: 61
+    delay: 0
+    numHidden: 5
+    numBlack: 0
+  - listBalls: "2i1 2 1 1 3 5 3 3i1 1 2 3 4i2 4 3i2 3i2 2i3 5 1 1 1 3 3 1 1 5 4i1
+    4i2 1 5 5 1i3 2i4 2i4 2i4 4i2 4 3i2 3i2 2i3 5 1 1 1 3 3 1 1 5 4"
+    ballFrom: 0
+    ballTo: 0
+    delay: 15
+    numHidden: 0
+    numBlack: 0
+  shooterType: 0
+  cannonPosition: {fileID: 1790492663858803024, guid: c620a3ac965ad4046b17bc820647207c, type: 2}
+  quad: {fileID: 1790492663808471377, guid: 23ddc470605150f448ec1bdc0768659b, type: 2}
+  paths: {fileID: 1790492663808471375, guid: 8a06c340fe7e63b4893053bfaf81adf6, type: 2}
+  score: 36000

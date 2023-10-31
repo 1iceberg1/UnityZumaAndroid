@@ -1,0 +1,97 @@
+
+zumba.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 74
+  rotate: false
+  xy: 974, 386
+  size: 147, 176
+  orig: 147, 176
+  offset: 0, 0
+  index: -1
+Layer 78
+  rotate: false
+  xy: 1665, 849
+  size: 138, 173
+  orig: 138, 173
+  offset: 0, 0
+  index: -1
+Layer 81
+  rotate: false
+  xy: 1517, 845
+  size: 146, 177
+  orig: 146, 177
+  offset: 0, 0
+  index: -1
+Layer 84
+  rotate: false
+  xy: 974, 564
+  size: 185, 222
+  orig: 185, 222
+  offset: 0, 0
+  index: -1
+Layer 84 copy 2
+  rotate: true
+  xy: 649, 226
+  size: 156, 190
+  orig: 156, 190
+  offset: 0, 0
+  index: -1
+Layer 89
+  rotate: false
+  xy: 2, 136
+  size: 196, 246
+  orig: 196, 246
+  offset: 0, 0
+  index: -1
+Layer 90
+  rotate: false
+  xy: 1171, 792
+  size: 170, 230
+  orig: 170, 230
+  offset: 0, 0
+  index: -1
+Layer 91
+  rotate: false
+  xy: 974, 788
+  size: 195, 234
+  orig: 195, 234
+  offset: 0, 0
+  index: -1
+Layer 92
+  rotate: true
+  xy: 409, 225
+  size: 157, 238
+  orig: 157, 238
+  offset: 0, 0
+  index: -1
+Layer 93
+  rotate: true
+  xy: 200, 2
+  size: 169, 233
+  orig: 169, 233
+  offset: 0, 0
+  index: -1
+e
+  rotate: false
+  xy: 1343, 814
+  size: 172, 208
+  orig: 172, 208
+  offset: 0, 0
+  index: -1
+r
+  rotate: false
+  xy: 200, 173
+  size: 207, 209
+  orig: 207, 209
+  offset: 0, 0
+  index: -1
+đế
+  rotate: false
+  xy: 2, 384
+  size: 970, 638
+  orig: 970, 638
+  offset: 0, 0
+  index: -1

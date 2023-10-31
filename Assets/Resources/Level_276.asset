@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59378e8e79c8eb492efa53749d2d092, type: 3}
+  m_Name: "Level_276"
+  m_EditorClassIdentifier: 
+  speed: 0.6
+  numPaths: 1
+  maxSameBalls: 3
+  sameBallCoef: 200
+  itemConfig:
+    maxItems: 3
+    randomCoef: 20
+    minExplodeBalls: 3
+    gapTime: 11
+  attacks:
+  - listBalls: "1 1 1 1 1 4 4 3 3 4 4 3 4 4 1 1 1 1 - - - - - - 5 5 5 5 5 h h - -
+    - - - - - h - - - h - - 4 4 4 5 4 4 - - - - - 5 5 5 3 2 2 2 2 - -
+    - - h - h - h - h - - - - - - h h h - - - - - - - - 3 3 3 3 3 - -
+    h h h - 4 4 4 4 - - - - - - - h h h - - - h h h h - - - h - - - -
+    - h h - - - - - 1 1 1 1 2 2 1 1 1 2 2 h 1 1 1 1 1 1 - - - - - h -
+    - h h - - h - - - - - h h h - - - - - - h h - - - - - 1 1 1 1 1 -
+    - - -  h h - - - - - - - h - - - h - - 4 4 4 5 4 4 - - - - - 5 5
+    5 3 2 2 2 2 - - - - h - h - h - h - - - - - - - - - 3 3 3 3 3 - -
+    h h h - 4 4 4 4 - - - - - h h h h - - - h - - - - - h h- - - - -
+    1 1 1 1 2 2 1 1 1 2 2 h 1 1 1 1 1 1 - - - - - h - - h h - - - - -
+    - h h - - - -"
+    ballFrom: 0
+    ballTo: 0
+    delay: 0
+    numHidden: 0
+    numBlack: 0
+  shooterType: 0
+  cannonPosition: {fileID: 1790492663858803024, guid: ee3509c8399e4e84d9c43e478fa7c8b4, type: 2}
+  quad: {fileID: 1790492663808471376, guid: d9cdcebe05cab3a49b6dd9c369417b5a, type: 2}
+  paths: {fileID: 1790492663808471375, guid: 59514fd02c2d00546bd459db9ad4aca6, type: 2}
+  score: 45000

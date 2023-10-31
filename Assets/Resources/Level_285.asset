@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59378e8e79c8eb492efa53749d2d092, type: 3}
+  m_Name: "Level_285"
+  m_EditorClassIdentifier: 
+  speed: 0.57
+  numPaths: 1
+  maxSameBalls: 4
+  sameBallCoef: 100
+  itemConfig:
+    maxItems: 3
+    randomCoef: 20
+    minExplodeBalls: 3
+    gapTime: 11
+  attacks:
+  - listBalls: 
+    ballFrom: 130
+    ballTo: 131
+    delay: 0
+    numHidden: 25
+    numBlack: 0
+  shooterType: 0
+  cannonPosition: {fileID: 1790492663858803024, guid: c39d1d47cf60d0740b639b239343bc68, type: 2}
+  quad: {fileID: 1790492663808471375, guid: f3c90bbad8e5ab348871918c449a0bd8, type: 2}
+  paths: {fileID: 1790492663808471375, guid: fde45977c03767f43ae73c30d50084d5, type: 2}
+  score: 42000

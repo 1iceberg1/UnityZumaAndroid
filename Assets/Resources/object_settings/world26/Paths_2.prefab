@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790492663808471375}
+  m_IsPrefabParent: 1
+--- !u!4 &1790492663858803024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.53, y: -4.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790492663808471375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790492663858803024}
+  - component: {fileID: 1790492665704296785}
+  - component: {fileID: 1790492665704296786}
+  m_Layer: 0
+  m_Name: "Paths_2"
+  m_TagString: "Paths"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790492665704296785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 1"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 5.015221, y: -2.375771, z: 1}
+  - {x: 4.662153, y: -2.41909, z: 0.7}
+  - {x: 4.383049, y: -2.435028, z: 0.4}
+  - {x: 3.674677, y: -2.423959, z: 0.2}
+  - {x: 2.567847, y: -2.423959, z: 0}
+  - {x: 1.405675, y: -2.412892, z: 0}
+  - {x: -0.2767076, y: -2.412891, z: 0}
+  - {x: -1.89268, y: -2.423959, z: 0}
+  - {x: -3.187673, y: -2.401824, z: 0}
+  - {x: -3.962831, y: -2.337897, z: 0}
+  - {x: -4.239161, y: -1.770929, z: 0}
+  - {x: -4.228094, y: -0.686235, z: 0}
+  - {x: -4.205957, y: 0.1992297, z: 0}
+  - {x: -4.186172, y: 1.295591, z: 0}
+  - {x: -4.156916, y: 2.158409, z: 0}
+  - {x: -3.834271, y: 2.470252, z: 0}
+  - {x: -3.24053, y: 2.55037, z: 0}
+  - {x: -2.574546, y: 2.538436, z: 0}
+  - {x: -2.306421, y: 2.204723, z: 0}
+  - {x: -2.601962, y: 1.586428, z: 0}
+  - {x: -2.989176, y: 0.9625209, z: 0}
+  - {x: -3.320294, y: 0.3799152, z: 0}
+  - {x: -3.257655, y: 0.05508542, z: 0}
+  - {x: -2.815442, y: -0.05028427, z: 0}
+  - {x: -2.327981, y: 0.465301, z: 0}
+  - {x: -1.674625, y: 1.352767, z: 0}
+  - {x: -1.022856, y: 2.182109, z: 0}
+  - {x: -0.3685646, y: 2.557911, z: 0}
+  - {x: 1.025959, y: 2.610394, z: 0}
+  - {x: 2.52584, y: 2.609578, z: 0}
+  - {x: 3.476264, y: 2.505138, z: 0}
+  - {x: 4.231423, y: 2.023282, z: 0}
+  - {x: 4.3192, y: 1.464903, z: 0}
+  - {x: 3.786873, y: 0.6256689, z: 0}
+  - {x: 3.172967, y: -0.4029595, z: 0}
+  - {x: 2.628569, y: -1.238417, z: 0}
+  - {x: 2.256486, y: -1.690399, z: 0}
+  - {x: 1.224128, y: -1.784001, z: 0}
+  - {x: -1.140036, y: -1.781998, z: 0}
+  - {x: -2.15832, y: -1.704519, z: 0}
+  - {x: -2.534642, y: -1.483153, z: 0}
+  - {x: -2.468232, y: -1.217514, z: 0}
+  - {x: -2.136184, y: -0.7526447, z: 0}
+  - {x: -1.560631, y: -0.02213654, z: 0}
+  - {x: -0.8854644, y: 0.7858498, z: 0}
+  - {x: -0.3320493, y: 1.461017, z: 0}
+  - {x: 0.1813549, y: 1.768385, z: 0}
+  - {x: 0.8411911, y: 1.837339, z: 0}
+  - {x: 1.715588, y: 1.804134, z: 0}
+  - {x: 2.385698, y: 1.772933, z: 0}
+  - {x: 2.899896, y: 1.660246, z: 0}
+  - {x: 3.111053, y: 1.426953, z: 0}
+  - {x: 2.955238, y: 1.095762, z: 0}
+  - {x: 2.634858, y: 0.6672691, z: 0}
+  - {x: 2.309778, y: 0.1539853, z: 0}
+  nodeCount: 55
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1
+--- !u!114 &1790492665704296786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b68f937fc56f2718370ee0a3001d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

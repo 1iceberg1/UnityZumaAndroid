@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b1bd2525440944d0b2f494293531e99b
+timeCreated: 1621519269
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 30
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "GROBOLD"
+  fontNames:
+  - GROBOLD
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

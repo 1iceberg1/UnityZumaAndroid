@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1790492663808471375}
+  m_IsPrefabParent: 1
+--- !u!4 &1790492663858803024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.437, y: 0.187, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790492663808471375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790492663858803024}
+  - component: {fileID: 1790492665704296785}
+  - component: {fileID: 1790492665704296786}
+  m_Layer: 0
+  m_Name: "Paths_4"
+  m_TagString: "Paths"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790492665704296785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffa27b3428677080fd3a575f740f820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: "New Path 1"
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: -6.648951, y: -1.049812, z: 0.7}
+  - {x: -5.800713, y: -0.8498443, z: 0.4}
+  - {x: -5.236985, y: -0.8194033, z: 0.4}
+  - {x: -4.666044, y: -0.7916836, z: 0.4}
+  - {x: -3.762805, y: -0.8407346, z: 0.4}
+  - {x: -3.363593, y: -0.860931, z: 0.4}
+  - {x: -2.95535, y: -0.9216383, z: 0.4}
+  - {x: -2.486883, y: -1.026144, z: 0.2}
+  - {x: -2.204363, y: -1.085604, z: 0}
+  - {x: -1.886686, y: -1.150106, z: 0}
+  - {x: -1.458885, y: -1.261991, z: 0}
+  - {x: -0.987794, y: -1.409983, z: 0}
+  - {x: -0.5729311, y: -1.545962, z: 0}
+  - {x: -0.1452684, y: -1.711576, z: 0.2}
+  - {x: 0.3756277, y: -1.944406, z: 0.4}
+  - {x: 0.9005522, y: -2.195371, z: 0.4}
+  - {x: 1.535744, y: -2.443103, z: 0.4}
+  - {x: 2.647644, y: -2.412231, z: 0.2}
+  - {x: 3.302774, y: -1.954624, z: 0}
+  - {x: 3.77338, y: -1.277404, z: 0}
+  - {x: 4.002393, y: -0.6678199, z: 0}
+  - {x: 4.092119, y: -0.0107464, z: 0}
+  - {x: 4.055973, y: 0.77169, z: 0}
+  - {x: 3.846997, y: 1.463364, z: 0}
+  - {x: 3.235757, y: 2.295253, z: 0}
+  - {x: 2.461176, y: 2.690388, z: 0}
+  - {x: 1.276786, y: 2.740878, z: 0}
+  - {x: -0.03054911, y: 2.582532, z: 0}
+  - {x: -1.186136, y: 1.806193, z: 0}
+  - {x: -1.908124, y: 1.142893, z: 0}
+  - {x: -2.370825, y: 0.5990138, z: 0}
+  - {x: -2.83857, y: 0.03473166, z: 0}
+  - {x: -3.35576, y: -0.9272177, z: 0}
+  - {x: -3.603193, y: -1.825801, z: 0}
+  - {x: -3.269538, y: -2.374888, z: 0}
+  - {x: -2.220272, y: -2.501099, z: 0}
+  - {x: -1.32153, y: -2.480671, z: 0}
+  - {x: -0.4081347, y: -2.364454, z: 0}
+  - {x: 0.6754675, y: -2.301386, z: 0}
+  - {x: 1.529978, y: -1.906276, z: 0}
+  - {x: 2.236573, y: -1.382537, z: 0}
+  - {x: 2.761153, y: -0.7602549, z: 0}
+  - {x: 3.086653, y: 0.1830225, z: 0}
+  - {x: 2.830346, y: 1.223931, z: 0}
+  - {x: 2.081991, y: 1.821729, z: 0.2}
+  - {x: 0.8417927, y: 2.069714, z: 0.3}
+  - {x: -0.1963019, y: 2.146875, z: 0.4}
+  - {x: -1.418818, y: 2.135019, z: 0.4}
+  - {x: -2.634703, y: 2.021155, z: 0.4}
+  - {x: -3.652961, y: 1.837919, z: 0.4}
+  nodeCount: 50
+  initialized: 1
+  initialName: "New Path 1"
+  pathVisible: 1
+--- !u!114 &1790492665704296786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790492663808471375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b68f937fc56f2718370ee0a3001d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
